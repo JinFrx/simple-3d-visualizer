@@ -1,0 +1,82 @@
+<html>
+
+<head>
+	<title>WebGL - Canvas test</title>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+	<script type="text/javascript" src="glMatrix.js"></script>
+	<script type="text/javascript" src="callbacks.js"></script>
+	<script type="text/javascript" src="glCourseBasis.js"></script>
+	<script type="text/javascript" src="objLoader.js"></script>
+	<script type="text/javascript" src="interface.js"></script>
+
+</head>
+
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: lightgrey;" onload="webGLStart();">
+	<canvas id="WebGL-test" style="float:left; margin: 10; padding: 10; border: 1px solid darkblue; border-radius: 5px;" width="800" height="600"></canvas>
+	
+	<div style="float:left;">
+		<div style="margin: 10; padding: 10; border: 1px solid darkblue; border-radius: 5px;">
+			<div style="display: block; margin-bottom: 10;">
+				<label for="objets">Objets : </label>
+				<select id = "objets">
+					<option value = 'bunny.obj' onclick="ob()"> Lapin </option>
+					<option value = 'teapot.obj' onclick="ob()"> Theiere </option>
+					<option value = 'cube.obj' onclick="ob()"> Cube </option>
+					<option value = 'sphere.obj' onclick="ob()"> Sphere </option>
+					<option value = 'elephant.obj' onclick="ob()"> Elephant </option>
+					<option value = 'vase.obj' onclick="ob()"> Vase </option>
+					<option value = 'car.obj' onclick="ob()"> Voiture </option>
+				</select>
+			</div>
+
+			<div style="display: block; margin-bottom: 10;">
+				<label for="cubemaps">Cubemaps : </label>
+				<select id = "cubemaps" >
+					<option value = 'chapel' onclick="cubma()"> Eglise </option>
+					<option value = 'colosseum' onclick="cubma()"> Colisee </option>
+					<option value = 'hall' onclick="cubma()"> Hall </option>
+					<option value = 'sky' onclick="cubma()"> Ciel </option>
+					<option value = 'temple' onclick="cubma()"> Temple </option>
+					<option value = 'webgl-test' onclick="cubma()"> WebGL-Test </option>
+					<option value = 'yokohama' onclick="cubma()"> Yokohama </option>
+					<option value = 'yokohama-night' onclick="cubma()"> Yokohama (Nuit) </option>
+				</select>
+			</div>
+
+			<div>
+				<label for="materials">Type materiau : </label>
+				<select id = "materials">
+					<option value = '0' onclick="mt()"> Cook-Torrance </option>
+					<option value = '1' onclick="mt()"> Miroir </option>
+					<option value = '2' onclick="mt()"> Transparent </option>
+				</select>
+			</div>
+		</div>
+
+		<div style="margin: 10; padding: 10; border: 1px solid darkblue; border-radius: 5px;">
+			<div style="display: block; margin-bottom: 10;">
+				<span id="result">Couleur de diffusion :</span>
+				<input id="diffuse" type=color value="#ff0000" onchange="diffuseColor();" />
+			</div>
+
+			<div style="display: block; margin-bottom: 10;">
+				<span id="result">Couleur speculaire :</span>
+				<input id="specular" type=color value="#ff0000" onchange="specularColor();" />
+			</div>
+			
+			<div style="display: block; margin-bottom: 10;">
+				<label for="cheese">Indice de refraction : </label>
+				<input type=number id="ni" step=0.01 min=1 max=4 value=1.5 onclick="indre()"/> </input>
+			</div>
+
+			<div>
+				<label for="cheese">Rugosite : </label>
+				<input type=number id="sig" step=0.01 min=0.01 max=1 value=0.1 onclick="sig()"/> </input>
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>

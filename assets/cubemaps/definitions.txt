@@ -1,0 +1,15 @@
+Definitions des textures
+========================
+
+chapel : 2048x2048
+colosseum : 2048x2048
+hall : 512x512
+sky : 2048x2048
+temple : 2048x2048
+test : 512x512
+yokohama : 2048x2048
+yokohama-night : 2048x2048
+
+========================
+Credits : Humus Textures
+https://www.humus.name/index.php?page=Textures
