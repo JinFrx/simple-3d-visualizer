@@ -16,6 +16,6 @@ The program is compatible with Mozilla Firefox. You may need to enable hard disk
 
 ```
 - access to browser options with "about:config" in address bar
-- search for "security.fileuri.strict_origin_policy" and set the boolean to True
+- search for "security.fileuri.strict_origin_policy" and reverse the state of the boolean (set it to False)
 ```
 
