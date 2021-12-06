@@ -6,5 +6,6 @@
 
 ## Description
 
-
+A 3D interface in WebGL, as part of a university project (2021).
+Light interaction was coded in GLSL shaders.
 
