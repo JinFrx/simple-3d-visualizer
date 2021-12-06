@@ -8,7 +8,7 @@
 
 The goal of this university project (2021) was to implement BRDFs and light interaction with a 3D model and an environment map, through a WebGL interface.  
 
-Lighting models are coded in shaders, in GLSL language.
+Lighting models are coded in the fragment shaders, in GLSL language.
 
 Reflections and refractions are computed with rays cast per pixel and a cubemap.
 
