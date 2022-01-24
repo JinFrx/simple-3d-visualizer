@@ -12,7 +12,7 @@ Three aspects where approached:
 - The Cook-Torrance model, with Beckmann Normal Distribution and Torrance-Sparrow GAF
 - The reflections and refractions on a 3D model, computed with an environment map (cubemap)
 
-Lighting and BRDFs are coded in the fragment shaders, in GLSL language. The render is displayed through a HTML / JS / WebGL interface.
+Lighting and BRDFs are coded in the fragment shaders, in GLSL. The render is displayed through a HTML / JS / WebGL interface.
 
 The program is compatible with Mozilla Firefox. You may need to enable hard disk research for JS files through Firefox options:
 
