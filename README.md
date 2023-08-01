@@ -1,4 +1,4 @@
-# Simple reflectance models visualizer
+# Simple 3D Visualizer for Local illumination models
 
 <p align=center>
   <img src="https://github.com/JinFrx/pf-simple-reflectance/blob/master/repo_showcase.PNG" alt="showcase image" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
@@ -33,6 +33,8 @@ Pour cela :
 ```
 
 Vous pouvez orienter la caméra et zoomer dans le canvas à l'aide de la souris.
+
+---
 
 *EN*
 
