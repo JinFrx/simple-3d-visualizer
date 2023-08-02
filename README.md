@@ -1,7 +1,7 @@
 # Simple 3D Visualizer for Local illumination models
 
 <p align=center>
-  <img src="https://github.com/JinFrx/pf-simple-3d-visualizer/blob/master/repo_showcase.PNG" alt="showcase image" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+  <img src="https://github.com/JinFrx/simple-3d-visualizer/blob/master/repo_showcase.PNG" alt="showcase image" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 </p>
 
 ## Description
