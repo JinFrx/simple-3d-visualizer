@@ -8,7 +8,7 @@
 
 *FR*
 
-Projet réalisé dans le cadre universitaire.
+Projet réalisé dans le cadre universitaire (2021).
 
 Un simple programme web qui permet de visualiser dans un canvas HTML différents modèles d'illumination locale et l'interaction de la lumière sur des modèles géométriques 3D en temps-réel.
 
@@ -38,7 +38,7 @@ Vous pouvez orienter la caméra et zoomer dans le canvas à l'aide de la souris.
 
 *EN*
 
-Project made for study purposes.
+Project made for study purposes (2021).
 
 A simple web program to visualize differents local illumination models and light interaction on 3D geometrics models in real-time.
 
