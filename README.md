@@ -1,4 +1,4 @@
-# Simple 3D Visualizer for Local illumination models
+# Simple 3D Visualizer for different illumination models
 
 <p align=center>
   <img src="https://github.com/JinFrx/simple-3d-visualizer/blob/master/repo_showcase.PNG" alt="showcase image" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
@@ -10,15 +10,15 @@
 
 Projet réalisé dans le cadre universitaire (2021).
 
-Un simple programme web qui permet de visualiser dans un canvas HTML différents modèles d'illumination locale et l'interaction de la lumière sur des modèles géométriques 3D en temps-réel.
+Un simple programme web qui permet de visualiser dans un canvas HTML différents modèles d'illumination et l'interaction de la lumière sur des modèles géométriques 3D en temps-réel.
 
 L'éclairage de la scène et le calcul des BRDF sont codés dans les fragments shaders.
 
 Le programme contient trois matériaux :
 
 - Micro-facettes : algorithme de *Cook-Torrance* (distribution de normales *Beckmann* et *GAF Torrance-Sparrow*/"cavités en V")
-- Spéculaire pur (effet de miroir)
-- Transmission partielle via *Fresnel* et une cubemap (effet de transparence)
+- Spéculaire pur (effet de miroir), contribution de la cubemap
+- Transmission partielle (effet de transparence) via *Fresnel* et la cubemap
 
 Le programme est compatible avec Mozilla Firefox.
 Si vous ne parvenez pas à visualiser la scène, il peut-être nécessaire d'octroyer la permission sur la lecture de fichiers JavaScript en local.
@@ -40,7 +40,7 @@ Vous pouvez orienter la caméra et zoomer dans le canvas à l'aide de la souris.
 
 Project made for study purposes (2021).
 
-A simple web program to visualize differents local illumination models and light interaction on 3D geometrics models in real-time.
+A simple web program to visualize different illumination models and light interaction on 3D geometrics models in real-time.
 
 Lighting and BRDFs are coded in the fragment shaders.
 The render is done through a HTML canvas, using WebGL.
@@ -48,8 +48,8 @@ The render is done through a HTML canvas, using WebGL.
 Three materials are available:
 
 - Micro-facets : *Cook-Torrance* algorithm (*Beckmann* normal distribution and *Torrance-Sparrow GAF*)
-- Pure specular (mirror effect)
-- Partial refraction via *Fresnel* and environment map (transparency effect)
+- Pure specular (mirror effect) with contribution of the cubemap
+- Partial refraction (transparency effect) via *Fresnel* and the cubemap 
 
 This program is compatible with Mozilla Firefox browser.
 You may need to enable hard disk research for JavaScript files through Firefox options if you are not able to visualize anything.
